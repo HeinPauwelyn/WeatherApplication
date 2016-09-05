@@ -1,2 +1,6 @@
 language: csharp
 solution: BALaboVoorbeeld.sln
+test:
+  adapter: sqlite3
+  database: ":memory:"
+  timeout: 500
