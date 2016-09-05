@@ -1,5 +1,6 @@
 language: csharp
 solution: BALaboVoorbeeld.sln
+services: sqlite3
 test:
   adapter: sqlite3
   database: ":memory:"
